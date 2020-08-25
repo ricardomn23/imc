@@ -10842,5 +10842,29 @@
       </description>
     </field>
    </message>
+   
+   <message id="910" name="BUVMotorCommand" abbrev="BUVMotorCommand" source="">
+    <description>
+      BUVMotorCommand for tail and side fins (Freq, Deflection and Amp)
+    </description>
+    <field name="tail_frequency" abbrev="tail_frequency" type="fp32_t" unit="Hz">
+    </field>
+    <field name="tail_deflection" abbrev="tail_deflection" type="fp32_t" unit="degrees">
+    </field>
+	<field name="tail_amplitude" abbrev="tail_amplitude" type="fp32_t" unit="degrees">
+    </field>
+	<field name="left_fin_frequency" abbrev="left_fin_frequency" type="fp32_t" unit="Hz">
+    </field>
+    <field name="left_fin_deflection" abbrev="left_fin_deflection" type="fp32_t" unit="degrees">
+    </field>
+	<field name="left_fin_amplitude" abbrev="left_fin_amplitude" type="fp32_t" unit="degrees">
+    </field>
+	<field name="right_fin_frequency" abbrev="right_fin_frequency" type="fp32_t" unit="Hz">
+    </field>
+    <field name="right_fin_deflection" abbrev="right_fin_deflection" type="fp32_t" unit="degrees">
+    </field>
+	<field name="right_fin_amplitude" abbrev="right_fin_amplitude" type="fp32_t" unit="degrees">
+    </field>
+   </message>
   
 </messages>
